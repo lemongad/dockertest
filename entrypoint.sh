@@ -12,7 +12,7 @@ if [ ! -d "${paths}" ]; then
 
 fi
 
-# Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch
+
   if [[ -n "${SPACE_HOST}" ]]; then
   SPACE_HOST=$(echo ${SPACE_HOST} | sed 's@https://@@g')
   SPACE_HOST=${SPACE_HOST}
